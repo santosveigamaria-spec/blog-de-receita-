@@ -1,1 +1,1 @@
-# blog-de-receita-
+# blog-de-receita- Bem-vindo ao blog de receita, o seu cantinho na internet para receitas fáceis, saborosas e cheias de afeto. Aqui, acreditamos que cozinhar não precisa ser complicado para ser especial. Compartilhamos pratos testados e aprovados no dia a dia, desde aquele bolo fofinho para o café da tarde até jantares práticos para a semana. Pegue seu avental e venha transformar ingredientes simples em momentos inesquecíveis à mesa!
