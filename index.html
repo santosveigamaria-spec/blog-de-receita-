@@ -1,0 +1,124 @@
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title> Receitas - Blog de receita</title>
+<style>
+body {
+font-family: Arial, sans-serif;
+background-color: #f9f9f9;
+margin: 0;
+padding: 20px;
+}
+
+header {
+background-color: #222222;
+color: #ffffff;
+text-align: center;
+max-width: 800px;
+margin: 0 auto;
+padding: 16px;
+border: 5px solid #d43778; /* Borda em tom dourado elegante */
+text-transform: uppercase;
+letter-spacing: 2px;
+}
+
+main {
+background-color: #ffffff;
+color: #333333;
+max-width: 800px;
+margin: 0 auto;
+padding: 16px;
+border: 1px solid #ddd;
+}
+
+img {
+width: 100px;
+height: 100px;
+object-fit: cover;
+border-radius: 8px;
+float: left;
+margin-right: 16px;
+}
+
+.artigo-autor {
+font-weight: bold;
+color: #777777;
+font-style: italic;
+}
+
+.conteudo-post {
+overflow: hidden; /* Garante o alinhamento com a imagem flutuante */
+}
+
+button {
+background-color: #f0f0f0;
+border: 1px solid #ccc;
+padding: 8px 12px;
+border-radius: 20px;
+cursor: pointer;
+font-size: 14px;
+margin-right: 8px;
+margin-top: 15px;
+transition: background-color 0.2s;
+}
+
+button:hover {
+background-color: #e0e0e0;
+}
+
+button span {
+margin-left: 4px;
+font-weight: bold;
+}
+
+article {
+margin-top: 24px;
+padding-top: 16px;
+border-top: 1px solid #eee;
+}
+</style>
+</head>
+<body>
+
+<header>
+<h1>Receitas</h1>
+</header>
+
+<main>
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBgpG0cxNltH0E3VMWToajjeRRxAxKqbbZiibK9ow0sV2OLp3XEH9qu6U&s=10"&gt;
+
+<div class="conteudo-post">
+<h2>Informações Nutricionais e Dicas: Detalhes sobre calorias e macronutrientes, além de substituições de ingredientes ou segredos para o prato não desandar...</h2>
+<p class="artigo-autor">por: Maria Clara</p>
+<p>Seja bem-vindo a páginas de receita! Conectamos você ao universo das receitas </p>
+
+<div>
+<button id="btn-coracao">❤️ <span>0</span></button>
+<button id="btn-like">👍 <span>0</span></button>
+</div>
+</div>
+
+<article>
+<h3> Várias opções de receita para seu dia a dia</h3>
+<p>Descubra como combinar várias receitas nesta temporada.</p>
+</article>
+
+</main>
+
+<script>
+// Correção da seleção dos botões e funcionalidade de clique para contar interações
+const btnCoracao = document.getElementById("btn-coracao");
+const btnLike = document.getElementById("btn-like");
+
+btnCoracao.addEventListener("click", () => {
+const contador = btnCoracao.querySelector("span");
+contador.textContent = parseInt(contador.textContent) + 1;
+});
+
+btnLike.addEventListener("click", () => {
+const contador = btnLike.querySelector("span");
+contador.textContent = parseInt(contador.textContent) + 1;
+});
+</script>
+</body>
+</html>
